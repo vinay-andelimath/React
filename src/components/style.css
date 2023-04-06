@@ -1,0 +1,52 @@
+html {
+  background-color: #d8e9f0;
+}
+
+.navbar {
+  padding: 25px;
+  margin: 0px fixed;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.navbar-light {
+  background-color: rgb(230, 186, 152);
+  font-family: "Alkatra", cursive;
+}
+.navbar navbar-light.h1 {
+  color: #fff;
+}
+.navbar.navbar-light.navbar-brand > h1 {
+  color: #fff;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p {
+  color: #787;
+}
+.note {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  color:rgb(243, 173, 81);
+  font-family: "Alkatra", cursive;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+.note p {
+  color:aquamarine;
+  font-family: "Alkatra", cursive;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
